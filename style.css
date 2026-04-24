@@ -1,0 +1,90 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background-image: url('background.png');
+    background-size: cover;       /* cobre toda a tela */
+    background-position: center;  /* centraliza */
+    background-repeat: no-repeat; /* não repete */
+
+    color: rgb(255, 255, 255);
+    
+
+}
+
+
+#titulo {
+    color: rgb(114, 16, 153);
+    font-size: 50px;
+
+
+}
+
+#context-box {
+    background-color: rgba(222, 93, 33, 0.5); /* 50% white background */
+    padding: 20px;
+
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+
+    padding: 20px;
+    border-radius: 40px;
+}
+
+
+
+#calcular{
+    
+    width: 150px;
+    height: 50px;
+    
+    background-color: rgb(124, 31, 200);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+
+}
+#calcular:hover{
+    background-color: rgb(65, 19, 111);
+
+}
+
+
+.button {
+  background-color: #4CAF50; /* Initial color */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.button:hover {
+  background-color: #008CBA; /* Color on hover */
+}
+
+#porcentagem {
+    font-size: 35px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: rgb(255, 255, 255);
+}
+
+
+
+input{
+    background-color: rgba(72, 53, 38, 0.571);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+
