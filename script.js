@@ -18,3 +18,5 @@ function calcularOdio(){
         document.getElementById("porcentagem").innerText = percentage.toString() + "%"
     }
 }
+
+//se a porcentaegm for maior de 80 criar um coisa pras pessoas lutarem
