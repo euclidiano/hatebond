@@ -20,3 +20,8 @@ function calcularOdio(){
 }
 
 //se a porcentaegm for maior de 80 criar um coisa pras pessoas lutarem
+
+//git status
+//git add .
+//git commit -m "mudei a altura"
+//git push
